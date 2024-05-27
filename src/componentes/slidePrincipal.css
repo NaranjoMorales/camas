@@ -1,0 +1,21 @@
+
+/* Estilo para las imágenes dentro del carousel */
+.carousel-item img {
+    /* Cambia el ancho de las imágenes */
+    width: 100px; /* Porcentaje del ancho del contenedor */
+    /* Cambia la altura de las imágenes (opcional) */
+    height: 400px; /* Altura fija */
+    /* Otra opción para cambiar la altura es utilizar un porcentaje relativo al ancho */
+    /* height: 60%; */ /* 60% del ancho del contenedor */
+    /* Ajusta el tamaño y la posición de la imagen para cubrir el contenedor */
+    object-fit: cover;
+    justify-content: space-around;  
+  }
+  .carousel {
+    max-width: 800px;
+    justify-content: space-around; 
+    margin: 0 auto; /* Ajusta el ancho máximo según sea necesario */
+  }
+  
+  
+    

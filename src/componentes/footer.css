@@ -1,0 +1,28 @@
+
+.footer {
+  background-color: white;
+   border: solid 2px ■gainsboro;
+  border-radius: 2%;
+  width: 80%; 
+  margin: auto;
+  padding: 10px;
+  }
+  .contactListItemFooter{
+  display: flex;
+  align-items: center;
+  text-align: left;
+  }
+  .ulFooter{
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none; /* Quita los puntos de la lista */
+      padding: 0; /* Quita el espacio interno de la lista */
+  }
+  
+  
+    
+    .ulFooter li {
+      margin: 0 10px; /* Ajusta el espacio entre los íconos */
+    }
+
+   

@@ -1,0 +1,28 @@
+.imagen-redonda {
+   
+    width: 100px;
+    height: 100px;
+    
+}
+.imagen-contenedor {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    display:grid ;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+ 
+}
+.contenedor{
+    display:contents;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav-item {
+    margin: 0 30px; /* Espacio entre los elementos */
+  }
+
+  

@@ -1,0 +1,14 @@
+
+.color{
+    background-color: lightblue;
+}
+.tamaño{
+    width:100%;
+    height:auto ;
+}
+.fondo {
+    background-color:white;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to top, #fff 10%, #34C1DD 90%) no-repeat
+}

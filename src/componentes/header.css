@@ -1,0 +1,167 @@
+.contactList{
+    /* border: solid 2px gainsboro; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+.contactList li{
+    /* border: solid 2px blue; */
+    padding: 1px;
+    margin-left: 1px;   
+}
+.contactListItem{
+    align-items: center;  
+    display: flex;   
+    justify-content: space-evenly;
+    padding: 5px;   
+}
+.contactListItem > p{   
+    font-size: smaller;
+    margin: 0px 0px 0px 10px;   
+}
+.container-fluid{
+    background-color: #34C1DD;
+
+}
+.header{    
+     /* border: solid 2px blue; */
+    background-color: #34C1DD;
+    border-radius: 2%;     
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: auto;
+    
+}
+.headerPhoto{   
+    /* border: solid 2px gainsboro; */
+    border-radius: 50%;   
+    /* flex: 1; */
+    height: 100px;
+   
+    /* margin-left: 5px; */
+    margin-top: 4px;
+    margin-bottom: 6px;  
+    margin-right: 150px;
+    margin-left: 30px;
+       
+}
+.headerNombres{    
+    border: solid 2px gainsboro;   
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    /* flex: 1; */
+    /* margin-left: 4px; */  
+    margin-top: 10px;
+    margin-bottom: 1px;    
+    padding: 15px;
+    height: 100px;
+}
+.headerNombres p, h1{
+    /* border: solid 2px blue; */
+    font-size: smaller;
+    margin: 1px;   
+}
+.headerNombres > h1{
+    margin-bottom: 8px;
+}
+.headerContacto{    
+    border: solid 2px gainsboro;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;   
+    padding-left: 0px;
+}
+.headerPhotoImg{
+    border-radius: 0%;
+    width: 400%;   
+    height: 150%; 
+    
+                  
+}
+
+
+@media(min-width: 768px) {
+
+    .headerPhotoImg{       
+        width: 20%;  
+        height: 100%;
+         
+        margin: auto;  
+            
+    }
+
+}
+
+@media(min-width: 992px) {
+
+    .headerPhotoImg{       
+        width: 100%;
+                
+    }
+
+}
+@media(min-width: 1400px) {
+
+    .headerPhotoImg{       
+        width: 100%;          
+    }
+
+}
+.contactListItemFooter a {
+    color:black;
+     /* Cambia el color del ícono a naranja */
+  }
+  .contactListItemFooter {
+    justify-content: space-around; 
+    
+     /* Centra el contenido del elemento */
+  }
+ 
+  .centro{
+    margin-right: 80px;
+  }
+  .lados{
+    margin-right: 20px;
+    font-weight: bold;
+    color:#FFFFFF;
+    display: flex !important;
+    align-items: center !important;
+  }
+  .ladosInicio{
+    margin-left: 15px;
+    margin-top: 15px;
+    color:#FFFFFF;
+    
+  }
+  .botonInicio{
+    
+    color: white  !important;
+    font-weight: bold !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+  .iconoCircular {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px; /* Ajusta el tamaño del círculo según sea necesario */
+    height: 36px; /* Ajusta el tamaño del círculo según sea necesario */
+    border-radius: 50%; /* Esto hace que el contenedor sea un círculo */
+    background-color: #ccc; /* Color de fondo del círculo */
+  }
+
+.menuicono{
+ background-color: #34C1DD;
+ 
+}
+.bg-transparent {
+    background-color: transparent !important; /* !important se utiliza para asegurarse de que esta regla tenga prioridad */
+}
+  

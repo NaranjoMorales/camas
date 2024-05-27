@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "nombres": "Fabio Naranjo",
+        "email": "fabio@gmail.com",
+        "telefono": "3104073011",
+        "password": "D4ygqpapzn#",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-04-15T19:52:47.847Z"
+    },
+    {
+        "id": 2,
+        "nombres": "emili",
+        "email": "an@g.com",
+        "telefono": "3104073012",
+        "password": "D4ygqpapzn#",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-04-15T20:34:49.496Z"
+    },
+    {
+        "id": 3,
+        "nombres": "sebas",
+        "email": "sebas@gmail.com",
+        "telefono": "3104073012",
+        "password": "D4ygqpapzn#",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-04-15T20:35:22.193Z"
+    },
+    {
+        "id": 4,
+        "nombres": "fab",
+        "email": "ganar@gmail.com",
+        "telefono": "3104073011",
+        "password": "D4ygqpapzn#",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-04-15T21:10:19.235Z"
+    },
+    {
+        "id": 5,
+        "nombres": "emi lee leee",
+        "email": "sebas2@gmail.com",
+        "telefono": "3104073012",
+        "password": "D4ygqpapzn#",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-04-15T21:11:27.088Z"
+    },
+    {
+        "id": 6,
+        "nombres": "andres",
+        "email": "sdjdj@gmail.com",
+        "telefono": "3116069364",
+        "password": "D4ygqpapzn#",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-04-16T00:52:15.418Z"
+    },
+    {
+        "id": 7,
+        "nombres": "fabio",
+        "email": "gang@gmail.com",
+        "telefono": "3104073012",
+        "password": "D4ygqpapzn#",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-04-16T02:19:53.435Z"
+    },
+    {
+        "id": 8,
+        "nombres": "fanery",
+        "email": "fanery@gmail.com",
+        "telefono": "3104073012",
+        "password": "D4ygqpapzn#",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-04-16T02:22:36.719Z"
+    },
+    {
+        "id": 9,
+        "nombres": "capo",
+        "email": "capo@gmail.com",
+        "telefono": "3104073012",
+        "password": "D4ygqpapzn#",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-04-16T02:27:18.017Z"
+    },
+    {
+        "id": 10,
+        "nombres": "apolo",
+        "email": "capo2@gmail.com",
+        "telefono": "3104073011",
+        "password": "D4ygqpapzn#",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-04-16T02:30:15.488Z"
+    },
+    {
+        "id": 11,
+        "nombres": "favio",
+        "email": "capo8@gmail.com",
+        "telefono": "3104073012",
+        "password": "D4ygqpapzn#",
+        "estado": "activo",
+        "rol": "Usuario",
+        "fecha_creación": "2024-04-16T03:05:15.172Z"
+    }
+]
