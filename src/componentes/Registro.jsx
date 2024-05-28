@@ -162,6 +162,7 @@ function Registro() {
         body: JSON.stringify(values)
     })
     */
+    console.log(URL);
      await fetch(`${URL}/registro-usuario`, {
         method: 'POST',
         headers: { "Content-Type": "application/json", 'Accept': 'application/json' },
