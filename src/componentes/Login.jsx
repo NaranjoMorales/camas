@@ -94,7 +94,7 @@ const handleShowPassword = (e) => {
     }
 
     
-     fetch("https://camas-14.onrender.com/login", {
+     fetch("https://camas-14.onrender.com", {
         method: 'POST',
         headers: { "Content-Type": "application/json", 'Accept': 'application/json' },
         body: JSON.stringify(values)
