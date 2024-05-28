@@ -13,16 +13,5 @@
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "mongoose": "^8.3.1"
-  }, 
-  "scripts": {
-    "start": "npm run start-frontend && npm run start-backend && npm run install",
-    "start-frontend": "react-scripts start",
-    "start-backend": "node server/index.js",
-    "install": "npm install",
-   
-   
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   }
 }
