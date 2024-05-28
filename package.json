@@ -34,6 +34,10 @@
     "start-frontend": "react-scripts start",
     "start-backend": "node server/index.js",
   
+<<<<<<< HEAD
+=======
+   
+>>>>>>> 31133b534adee769bf462c86f4e20686617c2d8b
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
