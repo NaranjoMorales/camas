@@ -23,7 +23,7 @@ mongoose.connect("mongodb://localhost:27017/analitica", {
 });
 */
 // Connect to MongoDB
-mongoose.connect("mongodb://localhost:27017/analitica")
+mongoose.connect("mongodb+srv://naranjofabioa:xLh5dUfFixcp39it@dbprimera.8e40m38.mongodb.net/")
     .then(() => {
         console.log("Conexión exitosa a MongoDB");
     })
