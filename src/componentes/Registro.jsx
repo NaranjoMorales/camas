@@ -155,20 +155,20 @@ function Registro() {
 
  */
    
-  
-   await fetch('https://camas-14.onrender.com/registro-usuario', {
+  /*
+   await fetch('http://localhost:3001/registro-usuario', {
         method: 'POST',
         headers: { "Content-Type": "application/json", 'Accept': 'application/json' },
         body: JSON.stringify(values)
     })
-    /*
+    */
     console.log(URL);
      await fetch(`${URL}/registro-usuario`, {
         method: 'POST',
         headers: { "Content-Type": "application/json", 'Accept': 'application/json' },
         body: JSON.stringify(values)
     })
-    */
+    
         .then(response => {
             if (response.status === 200) {
                 // alert("Usuario creado con éxito")
