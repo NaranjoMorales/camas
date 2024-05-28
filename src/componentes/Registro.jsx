@@ -155,19 +155,19 @@ function Registro() {
 
  */
    
-  
+  /*
    await fetch('http://localhost:3001/registro-usuario', {
         method: 'POST',
         headers: { "Content-Type": "application/json", 'Accept': 'application/json' },
         body: JSON.stringify(values)
     })
-    /*
+    */
      await fetch(`${URL}/registro-usuario`, {
         method: 'POST',
         headers: { "Content-Type": "application/json", 'Accept': 'application/json' },
         body: JSON.stringify(values)
     })
-    */
+    
         .then(response => {
             if (response.status === 200) {
                 // alert("Usuario creado con éxito")
