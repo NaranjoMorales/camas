@@ -8,7 +8,7 @@ import Swal from 'sweetalert2'
 
 function Registro() { 
   
-  
+  let URL=process.env.REACT_APP_ENVIRONMENT
  
   const [nomError, setNomError] = useState(false)
   const [emailError, setEmailError] = useState(false)
@@ -161,6 +161,13 @@ function Registro() {
         headers: { "Content-Type": "application/json", 'Accept': 'application/json' },
         body: JSON.stringify(values)
     })
+    /*
+     await fetch(`${URL}/registro-usuario`, {
+        method: 'POST',
+        headers: { "Content-Type": "application/json", 'Accept': 'application/json' },
+        body: JSON.stringify(values)
+    })
+    */
         .then(response => {
             if (response.status === 200) {
                 // alert("Usuario creado con éxito")
