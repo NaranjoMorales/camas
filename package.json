@@ -33,7 +33,7 @@
     "start": "npm run start-frontend && npm run start-backend",
     "start-frontend": "react-scripts start",
     "start-backend": "node server/index.js",
-   
+  
    
     "build": "react-scripts build",
     "test": "react-scripts test",
